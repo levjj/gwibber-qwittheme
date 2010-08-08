@@ -1,0 +1,40 @@
+<%include file="css.mako" />
+<%include file="defaultcss.mako" />
+
+* {color: #222; }
+
+body {
+  margin: 0px;
+}
+a { color: #204a87 }
+
+.time a { color: #666 }
+
+.basemsg .message {
+  -webkit-border-radius: 0;
+  background: #fff;
+  margin-top: 3px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 3px;
+  padding: 4px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.content {
+  -webkit-border-radius: 4px;
+  padding: 3px;
+}
+
+.imgbox {
+  width: 35px;
+  height: 35px;
+}
+
+.sigil img {
+  width: 8px;
+  height: 8px;
+}
