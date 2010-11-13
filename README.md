@@ -18,6 +18,12 @@ The theme can be installed either by creating a directory in the user's home dir
     $ wget http://livoris.de/releases/gwibber-qwittheme.tar.gz
     $ tar -xvzf gwibber-qwittheme.tar.gz
 
+Instead of getting the tar archive, it is also possible to get the newest source from github.
+
+    $ mkdir -p ~/.local/share/gwibber/ui/themes/
+    $ cd ~/.local/share/gwibber/ui/themes/
+    $ git clone git://github.com/levjj/gwibber-qwittheme.git
+
 After installing the theme, it can be activated by going to *Edit* -> *Preferences* -> *Style* and selected **qwit** as theme.
 
 Acknowledgement
